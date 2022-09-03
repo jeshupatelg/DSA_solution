@@ -13,7 +13,7 @@ class Solution {
                 int len=0;
                 int k=e;
                 while(set.contains(k)){len++; k++;}
-                if(len>max){max=len;}
+                max=Math.max(len,max);
                 
             }
         }
